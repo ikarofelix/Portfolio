@@ -1,0 +1,109 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto&display=swap"); */
+@import "styles/menu-btn.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
+*/
+
+.page_background {
+  width: 100vw;
+  min-height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 120px 24px 160px 24px;
+  pointer-events: none;
+}
+
+.page_background:before {
+  background: #030303;
+  position: absolute;
+  content: "";
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.page_background:after {
+  content: "";
+  background-image: url("/assets/images/grid.svg");
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0.4;
+  filter: invert(1);
+}
+
+.background_gradient {
+  height: fit-content;
+  z-index: 3;
+  width: 100%;
+  max-width: 640px;
+  background-image: radial-gradient(at 27% 37%, rgb(6, 168, 243) 0px, transparent 0%),
+    radial-gradient(at 97% 21%, rgb(6, 168, 243) 0px, transparent 50%),
+    radial-gradient(at 52% 99%, rgb(6, 168, 243) 0px, transparent 50%),
+    radial-gradient(at 10% 29%, rgb(6, 168, 243) 0px, transparent 50%),
+    radial-gradient(at 97% 96%, rgb(6, 168, 243) 0px, transparent 50%),
+    radial-gradient(at 33% 50%, rgb(6, 168, 243) 0px, transparent 50%),
+    radial-gradient(at 79% 53%, rgb(6, 168, 243) 0px, transparent 50%);
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  filter: blur(100px) saturate(150%);
+  top: 80px;
+  opacity: 0.15;
+}
+
+@media screen and (max-width: 640px) {
+  .page_background {
+    padding: 0;
+  }
+}
+
+.app {
+  @apply relative z-10 mx-auto;
+}
+
+.white {
+  @apply text-red-700;
+}
+
+.cabin_font {
+  @apply font-cabin;
+}
+
+.active_border {
+  @apply border-2 border-red-700;
+}
+
+.navbar_title {
+  @apply text-sm sm:text-lg;
+}
+
+@keyframes key_hero_image_vector {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+.hero_image_vector {
+  width: clamp(200px, 50vw, 600px);
+  height: clamp(220px, 55vw, 661px);
+  margin-bottom: 50px;
+  background: linear-gradient(180deg, #727272 0%, rgba(114, 114, 114, 0) 100%);
+  animation: key_hero_image_vector 10s infinite;
+}
