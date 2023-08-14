@@ -12,7 +12,14 @@ module.exports = {
         roboto: ["Roboto", "sans-serif"],
       },
       colors: {
-        white: "#FFFFFF",
+        dark_color: "#030303",
+        lighter_color: "#101010",
+        blue_color: "#00FFF0",
+        white_color: "#FFFFFF",
+        semi_white_color: "#D9D9D9",
+      },
+      boxShadow: {
+        navbar: "0px 4px 14px 2px rgba(14, 14, 14, 0.5)",
       },
     },
   },
