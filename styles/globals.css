@@ -68,6 +68,10 @@
   }
 }
 
+.app_container {
+  @apply w-full max-w-[1536px] pr-5 pl-5;
+}
+
 .app {
   @apply relative z-10 mx-auto;
 }
@@ -85,7 +89,7 @@
 }
 
 .navbar_title {
-  @apply text-sm sm:text-lg;
+  @apply text-lg sm:text-xl;
 }
 
 @keyframes key_hero_image_vector {
@@ -101,9 +105,15 @@
 }
 
 .hero_image_vector {
-  width: clamp(200px, 50vw, 600px);
+  /* width: clamp(200px, 90vw, 600px); */
+  /* height: clamp(220px, 95vw, 661px); */
+  margin-bottom: 50px;
+  background: linear-gradient(180deg, #727272 0%, rgba(114, 114, 114, 0) 80%);
+  animation: key_hero_image_vector 10s infinite;
+
+  /* width: clamp(200px, 50vw, 600px);
   height: clamp(220px, 55vw, 661px);
   margin-bottom: 50px;
   background: linear-gradient(180deg, #727272 0%, rgba(114, 114, 114, 0) 100%);
-  animation: key_hero_image_vector 10s infinite;
+  animation: key_hero_image_vector 10s infinite; */
 }
