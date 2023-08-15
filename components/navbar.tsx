@@ -9,7 +9,7 @@ export const Nav = () => {
 
   return (
     <header className="font-cabin bg-dark_color shadow-navbar w-full h-fit">
-      <div className="w-full mx-auto flex flex-wrap p-5 flex-row container">
+      <div className="app_container mx-auto flex flex-wrap p-3 sm:p-5 flex-row">
         <a
           className="hover:text-blue_color w-fit flex font-bold items-center sm:mb-0"
           href=""
@@ -41,7 +41,7 @@ export const Nav = () => {
 
           {toggleDropdown && (
             <div>
-              <div className="sm:hidden absolute top-16 right-0 bg-dark_color shadow-navbar rounded-md p-4 w-full">
+              <div className="sm:hidden absolute top-14 right-0 bg-dark_color shadow-navbar rounded p-4 w-full">
                 <div className="flex flex-wrap flex-col items-center justify-center font-bold">
                   <a className="hover:text-blue_color" href="#home" onClick={handleToggleDropdown}>
                     Home
