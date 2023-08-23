@@ -1,119 +1,83 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto&display=swap"); */
+@import "styles/hero-section.css";
 @import "styles/menu-btn.css";
+@import "styles/projects-section.css";
+@import "styles/download-cv-button.css";
+@import "styles/page-background.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* 
-  Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
-*/
-
-.page_background {
-  width: 100vw;
-  min-height: 100vh;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  padding: 120px 24px 160px 24px;
-  pointer-events: none;
+:root {
+  scroll-behavior: smooth;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
-.page_background:before {
-  background: #030303;
-  position: absolute;
-  content: "";
-  z-index: 2;
-  width: 100%;
-  height: 100%;
-  top: 0;
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-.page_background:after {
-  content: "";
-  background-image: url("/assets/images/grid.svg");
-  z-index: 10;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  opacity: 0.4;
-  filter: invert(1);
+::-webkit-scrollbar-track {
+  background-color: #030303;
 }
 
-.background_gradient {
-  height: fit-content;
-  z-index: 3;
-  width: 100%;
-  max-width: 640px;
-  background-image: radial-gradient(at 27% 37%, rgb(6, 168, 243) 0px, transparent 0%),
-    radial-gradient(at 97% 21%, rgb(6, 168, 243) 0px, transparent 50%),
-    radial-gradient(at 52% 99%, rgb(6, 168, 243) 0px, transparent 50%),
-    radial-gradient(at 10% 29%, rgb(6, 168, 243) 0px, transparent 50%),
-    radial-gradient(at 97% 96%, rgb(6, 168, 243) 0px, transparent 50%),
-    radial-gradient(at 33% 50%, rgb(6, 168, 243) 0px, transparent 50%),
-    radial-gradient(at 79% 53%, rgb(6, 168, 243) 0px, transparent 50%);
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  filter: blur(100px) saturate(150%);
-  top: 80px;
-  opacity: 0.15;
+::-webkit-scrollbar-thumb {
+  background-color: #101010;
+  border-radius: 6px;
 }
 
-@media screen and (max-width: 640px) {
-  .page_background {
-    padding: 0;
-  }
+::-webkit-scrollbar-corner {
+  background-color: #030303;
+}
+
+.app {
+  @apply relative mx-auto;
 }
 
 .app_container {
   @apply w-full max-w-[1536px] pr-5 pl-5;
 }
 
-.app {
-  @apply relative z-10 mx-auto;
-}
-
-.white {
-  @apply text-red-700;
-}
-
-.cabin_font {
-  @apply font-cabin;
-}
-
-.active_border {
-  @apply border-2 border-red-700;
-}
-
 .navbar_title {
   @apply text-lg sm:text-xl;
 }
 
-@keyframes key_hero_image_vector {
-  0% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
-  50% {
-    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-  }
-  100% {
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  }
+.text_small {
+  @apply 2xl:text-lg md:text-base text-sm;
 }
 
-.hero_image_vector {
-  /* width: clamp(200px, 90vw, 600px); */
-  /* height: clamp(220px, 95vw, 661px); */
-  margin-bottom: 50px;
-  background: linear-gradient(180deg, #727272 0%, rgba(114, 114, 114, 0) 80%);
-  animation: key_hero_image_vector 10s infinite;
+.section_title {
+  @apply 2xl:text-2xl md:text-xl text-lg text-blue_color before:absolute before:content-[''] before:left-0 before:bg-blue_color before:h-0.5 before:w-full before:bottom-0 before:rounded;
+}
 
-  /* width: clamp(200px, 50vw, 600px);
-  height: clamp(220px, 55vw, 661px);
-  margin-bottom: 50px;
-  background: linear-gradient(180deg, #727272 0%, rgba(114, 114, 114, 0) 100%);
-  animation: key_hero_image_vector 10s infinite; */
+.stack_image {
+  @apply 2xl:w-16 md:w-14 w-12;
+}
+
+.project_title {
+  @apply 2xl:text-2xl md:text-xl text-lg font-bold;
+}
+
+.project_container {
+  @apply xl:w-[1200px] w-full flex flex-col justify-between items-center gap-10 p-5 bg-dark_color shadow-project rounded-2xl;
+}
+
+.project_info {
+  @apply w-full flex flex-col gap-5 items-center;
+}
+
+.project_stacks {
+  @apply flex flex-wrap w-fit justify-center;
+}
+
+.project_stack_image {
+  @apply 2xl:w-14 w-12;
+}
+
+.project_img_container {
+  @apply relative inline-block max-w-md rounded-2xl shadow-project overflow-hidden;
 }

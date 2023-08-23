@@ -10,8 +10,8 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en" className="bg-dark_color text-white_color">
       <body>
-        <div className="page_background">
-          <div className="background_gradient"></div>
+        <div className="page_background sm:after:block after:hidden">
+          <div className="background_gradient sm:block hidden"></div>
         </div>
         <main className="app">
           <Nav />
