@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { DownloadCVButton } from "./download-cv-button";
 
 export const HeroSection = () => {
   return (
@@ -15,7 +16,6 @@ export const HeroSection = () => {
           height="1024"
         />
       </div>
-
       <div className="lg:self-center self-start flex flex-col gap-10 max-w-3xl">
         <div className="flex flex-col gap-3">
           <h1 className="2xl:text-6xl md:text-4xl text-2xl font-bold font-cabin">
@@ -32,9 +32,8 @@ export const HeroSection = () => {
             Minas Gerais in Brazil.
           </p>
         </div>
-
         <div>
-          <h2 className="2xl:text-4xl md:text-2xl text-xl font-bold font-cabin">Stacks</h2>
+          <h2 className="2xl:text-3xl md:text-2xl text-xl font-bold font-cabin">Stacks</h2>
           <div className="flex flex-wrap w-fit justify-center -ml-2">
             <img
               className="stack_image"
@@ -48,14 +47,12 @@ export const HeroSection = () => {
               alt="TypeScript icon"
               title="TypeScript"
             />
-
             <img
               className="stack_image"
               src="/assets/icons/stacks/node-js-icon.svg"
               alt="Node JS icon"
               title="Node JS"
             />
-
             <img
               className="stack_image"
               src="/assets/icons/stacks/react-icon.svg"
@@ -74,7 +71,6 @@ export const HeroSection = () => {
               alt="MySQL icon"
               title="MySQL"
             />
-
             <img
               className="stack_image"
               src="/assets/icons/stacks/graphql-icon.svg"
@@ -83,21 +79,8 @@ export const HeroSection = () => {
             />
           </div>
         </div>
-
-        {/* Download Button
-    <div>
-      <a href="#" className="btn">
-        <span className="circle"></span>
-
-        <svg width="20" height="26" viewBox="0 0 20 26">
-          <path d="M1.5 16.5L10 24.5L18.5 16.5"></path>
-          <path d="M10 1.5V24"></path>
-        </svg>
-        <span className="progress"></span>
-      </a>
-    </div> */}
+        <DownloadCVButton />
       </div>
-
       <div className="min-w-[32px] flex lg:flex-col flex-wrap justify-center lg:gap-8 gap-4">
         <a href="mailto:ikaroisdm@gmail.com" target="_blank" rel="noopener noreferrer">
           <Image

@@ -1,4 +1,4 @@
-.menu-btn {
+.menu_btn {
   width: 32px;
   height: 32px;
   position: relative;
@@ -9,7 +9,7 @@
   transition: all 0.2s ease-in-out;
 }
 
-.menu-btn__burger {
+.menu_btn__burger {
   width: 20px;
   height: 2px;
   background: #fff;
@@ -17,14 +17,14 @@
   transition: all 0.2s ease-in-out;
 }
 
-.menu-btn:hover .menu-btn__burger,
-.menu-btn:hover .menu-btn__burger::after,
-.menu-btn:hover .menu-btn__burger::before {
+.menu_btn:hover .menu_btn__burger,
+.menu_btn:hover .menu_btn__burger::after,
+.menu_btn:hover .menu_btn__burger::before {
   background: #00fff0;
 }
 
-.menu-btn__burger::before,
-.menu-btn__burger::after {
+.menu_btn__burger::before,
+.menu_btn__burger::after {
   content: "";
   position: absolute;
   width: 95%;
@@ -34,23 +34,23 @@
   transition: all 0.2s ease-in-out;
 }
 
-.menu-btn__burger::before {
+.menu_btn__burger::before {
   transform: translateY(-8px);
 }
 
-.menu-btn__burger::after {
+.menu_btn__burger::after {
   transform: translateY(8px);
 }
 
-.menu-btn.open .menu-btn__burger {
+.menu_btn.open .menu_btn__burger {
   transform: translateX(-50px);
   background: transparent;
 }
 
-.menu-btn.open .menu-btn__burger::before {
+.menu_btn.open .menu_btn__burger::before {
   transform: rotate(45deg) translate(35px, -35px);
 }
 
-.menu-btn.open .menu-btn__burger::after {
+.menu_btn.open .menu_btn__burger::after {
   transform: rotate(-45deg) translate(35px, 35px);
 }

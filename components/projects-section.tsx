@@ -10,6 +10,7 @@ export const ProjectsSection = () => {
         <div className="project_container lg:flex-row">
           <div className="project_img_container alzheimer_care">
             <img
+              loading="lazy"
               src="/assets/images/alzheimer-care.png"
               alt="Alzheimer Care Project"
               className="w-full h-full"
@@ -74,6 +75,7 @@ export const ProjectsSection = () => {
                   className="flex flex-col items-center"
                 >
                   <Image
+                    loading="lazy"
                     src="/assets/icons/socials/github-icon.svg"
                     alt="GitHub icon"
                     width={35}
@@ -90,6 +92,7 @@ export const ProjectsSection = () => {
                   className="flex flex-col items-center"
                 >
                   <Image
+                    loading="lazy"
                     src="/assets/icons/live-icon.svg"
                     alt="See website live icon"
                     width={35}
@@ -114,6 +117,7 @@ export const ProjectsSection = () => {
             </p>
             <div className="project_stacks">
               <img
+                loading="lazy"
                 className="project_stack_image"
                 src="/assets/icons/stacks/javascript-icon.svg"
                 alt="JavaScript icon"
@@ -121,6 +125,7 @@ export const ProjectsSection = () => {
               />
 
               <img
+                loading="lazy"
                 className="project_stack_image"
                 src="/assets/icons/stacks/react-icon.svg"
                 alt="React icon"
@@ -128,6 +133,7 @@ export const ProjectsSection = () => {
               />
 
               <img
+                loading="lazy"
                 className="project_stack_image"
                 src="/assets/icons/stacks/react-router-icon.svg"
                 alt="React Router icon"
@@ -135,6 +141,7 @@ export const ProjectsSection = () => {
               />
 
               <img
+                loading="lazy"
                 className="project_stack_image"
                 src="/assets/icons/stacks/styled-components-icon.svg"
                 alt="Styled Components icon"
@@ -150,6 +157,7 @@ export const ProjectsSection = () => {
                   className="flex flex-col items-center"
                 >
                   <Image
+                    loading="lazy"
                     src="/assets/icons/socials/github-icon.svg"
                     alt="GitHub icon"
                     width={35}
@@ -166,6 +174,7 @@ export const ProjectsSection = () => {
                   className="flex flex-col items-center"
                 >
                   <Image
+                    loading="lazy"
                     src="/assets/icons/live-icon.svg"
                     alt="See website live icon"
                     width={35}
@@ -181,6 +190,7 @@ export const ProjectsSection = () => {
         <div className="project_container lg:flex-row">
           <div className="project_img_container clothing_e_commerce">
             <img
+              loading="lazy"
               src="/assets/images/clothing-e-commerce.png"
               alt="Clothing E-Commerce Project"
               className="w-full h-full"
@@ -196,6 +206,7 @@ export const ProjectsSection = () => {
             </p>
             <div className="project_stacks">
               <img
+                loading="lazy"
                 className="project_stack_image"
                 src="/assets/icons/stacks/javascript-icon.svg"
                 alt="JavaScript icon"
@@ -203,6 +214,7 @@ export const ProjectsSection = () => {
               />
 
               <img
+                loading="lazy"
                 className="project_stack_image"
                 src="/assets/icons/stacks/typescript-icon.svg"
                 alt="TypeScript icon"
@@ -210,6 +222,7 @@ export const ProjectsSection = () => {
               />
 
               <img
+                loading="lazy"
                 className="project_stack_image"
                 src="/assets/icons/stacks/react-icon.svg"
                 alt="React icon"
@@ -217,6 +230,7 @@ export const ProjectsSection = () => {
               />
 
               <img
+                loading="lazy"
                 className="project_stack_image"
                 src="/assets/icons/stacks/react-router-icon.svg"
                 alt="React Router icon"
@@ -224,6 +238,7 @@ export const ProjectsSection = () => {
               />
 
               <img
+                loading="lazy"
                 className="project_stack_image"
                 src="/assets/icons/stacks/firebase-icon.svg"
                 alt="Firebase icon"
@@ -231,6 +246,7 @@ export const ProjectsSection = () => {
               />
 
               <img
+                loading="lazy"
                 className="project_stack_image"
                 src="/assets/icons/stacks/redux-icon.svg"
                 alt="Redux icon"
@@ -238,6 +254,7 @@ export const ProjectsSection = () => {
               />
 
               <img
+                loading="lazy"
                 className="project_stack_image"
                 src="/assets/icons/stacks/styled-components-icon.svg"
                 alt="Styled Components icon"
@@ -253,6 +270,7 @@ export const ProjectsSection = () => {
                   className="flex flex-col items-center"
                 >
                   <Image
+                    loading="lazy"
                     src="/assets/icons/socials/github-icon.svg"
                     alt="GitHub icon"
                     width={35}
@@ -269,6 +287,7 @@ export const ProjectsSection = () => {
                   className="flex flex-col items-center"
                 >
                   <Image
+                    loading="lazy"
                     src="/assets/icons/live-icon.svg"
                     alt="See website live icon"
                     width={35}

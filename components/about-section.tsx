@@ -1,16 +1,10 @@
-import Image from "next/image";
-
 export const AboutSection = () => {
   return (
     <section id="about" className="pt-20 pb-20 w-full bg-lighter_color font-cabin">
-      <div className="app_container m-auto h-full flex lg:flex-row flex-col gap-10">
+      <div className="app_container m-auto h-full flex lg:flex-row flex-col">
         <div className="lg:w-[100%] flex flex-col gap-10">
           <span className="relative w-fit">
-            <span className="section_title">
-              {/* after:absolute after:content-[''] after:bg-blue_color after:h-0.5 after:w-full after:-right-28
-        after:top-2 after:rounded */}
-              About Me
-            </span>
+            <span className="section_title">About Me</span>
           </span>
           <h3 className="font-bold 2xl:text-3xl md:text-2xl text-xl">
             I code to drive impactful change, infusing passion and creativity into every digital
@@ -36,9 +30,12 @@ export const AboutSection = () => {
             </p>
           </span>
         </div>
-
-        <div className="w-full flex justify-center">
-          <Image src="/assets/icons/about-me-icon.svg" width="500" height="500" alt="" />
+        <div className="w-full lg:flex justify-center hidden">
+          <img
+            loading="lazy"
+            src="/assets/icons/about-me-icon.svg"
+            alt="Group of icons in blue color"
+          />
         </div>
       </div>
     </section>
