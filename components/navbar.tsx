@@ -4,11 +4,10 @@ import { useState } from "react";
 
 export const Nav = () => {
   const [toggleDropdown, setToggleDropdown] = useState(false);
-
   const handleToggleDropdown = () => setToggleDropdown((prev) => !prev);
 
   return (
-    <header className="font-cabin bg-dark_color shadow-navbar w-full h-fit">
+    <header className="fixed z-10 font-cabin bg-dark_color shadow-navbar w-full h-fit">
       <div className="app_container mx-auto flex flex-wrap p-3 sm:p-5 flex-row">
         <a
           className="hover:text-blue_color w-fit flex font-bold items-center sm:mb-0"
@@ -33,12 +32,11 @@ export const Nav = () => {
             </a>
           </div>
           <div
-            className={`sm:hidden menu-btn ${toggleDropdown ? "open" : ""}`}
+            className={`sm:hidden menu_btn ${toggleDropdown ? "open" : ""}`}
             onClick={handleToggleDropdown}
           >
-            <div className="menu-btn__burger"></div>
+            <div className="menu_btn__burger"></div>
           </div>
-
           {toggleDropdown && (
             <div>
               <div className="sm:hidden absolute top-14 right-0 bg-dark_color shadow-navbar rounded p-4 w-full">
