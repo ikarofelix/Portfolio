@@ -1,0 +1,28 @@
+{
+  "navbar.home": "Início",
+  "navbar.about": "Sobre",
+  "navbar.projects": "Projetos",
+  "navbar.contact": "Contato",
+
+  "hero.blue.title": "Front-End",
+  "hero.title": "Desenvolvedor",
+  "hero.description": "Olá, eu sou {{name}}. Um entusiasta na arte de resolver problemas e criar projetos a partir do zero, situado no estado de Minas Gerais, no Brasil.",
+  "hero.subtitle": "Ferramentas",
+  "hero.download": "Baixar currículo",
+
+  "about.title": "Sobre Mim",
+  "about.subtitle": "Escrevo código para promover mudanças impactantes, injetando paixão e criatividade em cada criação digital.",
+  "about.description.one": "Eu sou completamente apaixonado por tecnologia e todas as coisas incríveis que ela pode realizar. É por isso que entrei no mundo do desenvolvimento web - por causa dessa combinação incrível de ser criativo, resolver problemas e sempre aprender coisas novas. O que realmente me deixa empolgado é criar aplicativos interativos e que também tenham uma aparência realmente legal. Desenvolvendo aplicações para conseguir realmente fazer a diferença na vida das pessoas.",
+  "about.description.two": "Sou uma daquelas pessoas que estão sempre curiosas sobre como as coisas funcionam. No momento, estou realmente me aprofundando em como os sistemas são montados, especialmente coisas como bancos de dados e servidores. Até estou pensando em me aprofundar mais no desenvolvimento Back-End no futuro. Estou sempre em busca de novos conhecimentos - sou um ávido aprendiz. Desafios me mantêm animado e adoro começar do zero e construir coisas do nada. Ah, e a propósito, tenho um bom domínio de JavaScript, TypeScript, React, Redux, Firebase, MySQL, GraphQL, NodeJS e umas outras coisinhas aí.",
+
+  "projects.title": "Projetos",
+  "projects.code": "Código",
+  "projects.live": "Demo",
+  "projects.alzheimer_care": "Um projeto pessoal compassivo com o objetivo de fornecer uma solução web e mobile para pessoas lidando com o Alzheimer. Essa iniciativa foca em armazenar informações de saúde, oferecendo uma fonte potencial de apoio tanto para cuidadores quanto para pacientes.",
+  "projects.panificadora": "Desenvolvido para uma panificadora familiar, apresentando história, produtos, serviços e um formulário de contato. Seu layout adaptável, design encantador e facilidade de uso atendem a todos, incluindo conexões de internet mais lentas.",
+  "projects.clothing_e_commerce": "Este projeto faz parte do curso 'Complete React Developer in 2023', focando em construir lojas online. Contém recursos como navegação de produtos, contas de usuário, gerenciamento de carrinho e integração de pagamento com o Stripe. Perfeito para compreender desenvolvimento web, pagamentos, sistemas de login e mais.",
+
+  "contact.title": "Contato",
+  "contact.location": "Localização",
+  "contact.address": "Minas Gerais, Brasil"
+}

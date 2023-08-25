@@ -1,0 +1,28 @@
+{
+  "navbar.home": "Home",
+  "navbar.about": "About",
+  "navbar.projects": "Projects",
+  "navbar.contact": "Contact",
+
+  "hero.blue.title": "Front-End",
+  "hero.title": "Developer",
+  "hero.description": "Hi, I'm {{name}}. An enthusiast in the art of problem-solving and crafting creations from the ground up, situated in the state of Minas Gerais in Brazil.",
+  "hero.subtitle": "Stacks",
+  "hero.download": "Download CV",
+
+  "about.title": "About Me",
+  "about.subtitle": "I code to drive impactful change, infusing passion and creativity into every digital creation.",
+  "about.description.one": "I'm super into tech and all the amazing stuff it can do. That's why I got into web development – it's this awesome combo of being creative, solving problems, and always picking up new things. What really gets me excited is making apps that you can interact with, and they look really cool too. Like, they can actually make a difference in people's lives.",
+  "about.description.two": "I'm one of those people who's always curious about how things tick. Right now, I'm really getting into how systems are put together, especially things like databases and servers. I'm even thinking of getting more into Back-End development down the road. I'm always on the lookout for new knowledge – I'm a total learning junkie. Challenges keep me fired up, and I love starting from scratch and building stuff up. Oh, and by the way, I'm pretty handy with JavaScript, TypeScript, React, Redux, Firebase, MySQL, GraphQL, NodeJS and some other stuff.",
+
+  "projects.title": "Projects",
+  "projects.code": "Code",
+  "projects.live": "Live",
+  "projects.alzheimer_care": "A compassionate personal project aimed at providing a web and mobile solution for individuals dealing with Alzheimer's. This initiative focuses on storing health information, offering a potential source of support for caregivers and patients alike.",
+  "projects.panificadora": "Tailored for a family bakery, this project merges English code with Brazilian Portuguese flair, showcasing history, products, services, and a contact form. Its adaptable layout, charming design, and user-friendliness cater to all, including slower internet connections.",
+  "projects.clothing_e_commerce": "This project is a part of the 'Complete React Developer in 2023' course, focusing on building online stores. Discover features like product browsing, user accounts, cart management, and Stripe payment integration. Perfect for understanding web development, payments, login systems and more.",
+
+  "contact.title": "Contact",
+  "contact.location": "Location",
+  "contact.address": "Minas Gerais, Brazil"
+}
