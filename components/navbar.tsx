@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useTranslation } from "react-i18next";
 import { NavLinks } from "./nav-links.";
-import LanguageSwitcher from "./language-switcher";
+import { LanguageSwitcher } from "./language-switcher";
 
 export const NavBar: React.FC = () => {
   const { i18n } = useTranslation();
@@ -67,7 +67,7 @@ export const NavBar: React.FC = () => {
     <header className="fixed z-10 font-cabin bg-dark_color shadow-navbar w-full h-fit">
       <div className="app_container mx-auto flex flex-wrap p-3 sm:p-5 flex-row">
         <a className="hover:text-blue_color w-fit flex font-bold items-center sm:mb-0" href="">
-          <span className="navbar_title sm:block hidden">Ikaro Felix</span>
+          <span className="sm:text-xl text-lg sm:block hidden">Ikaro Felix</span>
         </a>
         <nav className="ml-auto text-base">
           <div className="sm:flex items-center hidden font-sans">
@@ -96,7 +96,7 @@ export const NavBar: React.FC = () => {
                   className="hover:text-blue_color w-fit flex font-bold items-center sm:mb-0"
                   href=""
                 >
-                  <span className="navbar_title">Ikaro Felix</span>
+                  <span className="sm:text-xl text-lg">Ikaro Felix</span>
                 </a>
                 <div
                   className={`absolute right-6 top-3 sm:hidden menu_btn ${

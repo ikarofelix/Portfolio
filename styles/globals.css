@@ -3,6 +3,7 @@
 @import "styles/projects-section.css";
 @import "styles/download-cv-button.css";
 @import "styles/page-background.css";
+@import "styles/loading-spinner.css";
 
 @tailwind base;
 @tailwind components;
@@ -42,16 +43,12 @@
   @apply w-full max-w-[1536px] pr-5 pl-5;
 }
 
-.navbar_title {
-  @apply text-lg sm:text-xl;
-}
-
 .text_small {
   @apply 2xl:text-lg md:text-base text-sm;
 }
 
 .section_title {
-  @apply 2xl:text-2xl md:text-xl text-lg text-blue_color before:absolute before:content-[''] before:left-0 before:bg-blue_color before:h-0.5 before:w-full before:bottom-0 before:rounded;
+  @apply 2xl:text-2xl md:text-xl text-lg font-semibold text-blue_color before:absolute before:content-[''] before:left-0 before:bg-blue_color before:h-0.5 before:w-full before:bottom-0 before:rounded;
 }
 
 .stack_image {
@@ -63,7 +60,7 @@
 }
 
 .project_container {
-  @apply xl:w-[1200px] w-full flex flex-col justify-between items-center gap-10 p-5 bg-dark_color shadow-project rounded-2xl;
+  @apply xl:w-[1200px] w-full flex flex-col justify-between items-center gap-10 p-5 bg-dark_color border-2 border-lighter_color rounded-2xl;
 }
 
 .project_info {

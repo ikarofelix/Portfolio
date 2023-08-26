@@ -6,7 +6,7 @@ interface LanguageSwitcherProps {
   handleSwitcher: () => void;
 }
 
-const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
+export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
   language,
   click,
   switcher,
@@ -93,5 +93,3 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
     </>
   );
 };
-
-export default LanguageSwitcher;
