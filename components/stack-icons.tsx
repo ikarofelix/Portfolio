@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-type Stacks =
+export type Stacks =
   | "JavaScript"
   | "TypeScript"
   | "NodeJS"
