@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslation } from "react-i18next";
 
 export const AboutSection: React.FC = () => {
@@ -18,10 +19,12 @@ export const AboutSection: React.FC = () => {
           </span>
         </div>
         <div className="w-full lg:flex justify-center hidden">
-          <img
+          <Image
             loading="lazy"
             src="/assets/icons/about-me-icon.svg"
             alt="Group of icons in blue color"
+            width={550}
+            height={496}
           />
         </div>
       </div>

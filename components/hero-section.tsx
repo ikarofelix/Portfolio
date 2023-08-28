@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { DownloadCVButton } from "./download-cv-button";
 import { useTranslation } from "react-i18next";
 import { usePathname } from "next/navigation";
@@ -20,16 +19,14 @@ export const HeroSection: React.FC = () => {
     >
       <div className="hero_image_vector max-w-xl">
         <picture>
-          <Image
+          <img
             src="/assets/images/hero-image-colored.png"
-            priority
+            loading="eager"
             alt={
               isEnglish()
                 ? "Ikaro Felix in a black shirt sitting with his arms crossed in front of him while looking directly at the camera"
                 : "Ikaro Felix utilizando uma blusa preta enquanto está sentado com seus braços cruzados e olhando diretamente para a câmera"
             }
-            width="768"
-            height="1024"
           />
         </picture>
       </div>

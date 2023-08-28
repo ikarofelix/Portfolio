@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface LanguageSwitcherProps {
   language: string;
   click: () => void;
@@ -17,7 +19,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
     <>
       <div className="sm:flex hidden flex-row-reverse w-16">
         <div className="relative flex cursor-pointer" onClick={handleSwitcher}>
-          <img
+          <Image
             src={`/assets/icons/languages/${language === "en" ? "usa-flag" : "brazil-flag"}.svg`}
             className={`transition-transform duration-300 ${
               language === "en" ? "rotate-100" : "scale-105"
@@ -26,7 +28,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
             width={32}
             height={32}
           />
-          <img
+          <Image
             src="/assets/icons/languages/arrow-down-icon.svg"
             className={`transition-transform duration-300 ${
               switcher ? "-rotate-180" : " pointer-events-none"
@@ -45,7 +47,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
             changeLanguage(`${language === "en" ? "pt" : "en"}`);
           }}
         >
-          <img
+          <Image
             src={`/assets/icons/languages/${language === "en" ? "brazil-flag" : "usa-flag"}.svg`}
             alt={language === "en" ? "Portuguese icon" : "English icon"}
             width={32}
@@ -64,7 +66,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
           role="button"
           aria-label="Switch to Portuguese"
         >
-          <img
+          <Image
             src="/assets/icons/languages/brazil-flag.svg"
             alt="Portuguese icon"
             width={32}
@@ -81,7 +83,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
           role="button"
           aria-label="Switch to English"
         >
-          <img
+          <Image
             src="/assets/icons/languages/usa-flag.svg"
             alt="English icon"
             width={32}

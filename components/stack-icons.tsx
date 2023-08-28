@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export type Stacks =
   | "JavaScript"
   | "TypeScript"
@@ -38,13 +40,15 @@ export const StackIcons: React.FC<{ stacks: Stacks[]; project?: boolean }> = ({
       {stacks.map((stack) => {
         const iconName = stackIconsMap[stack.toLowerCase()];
         return (
-          <img
+          <Image
             key={stack}
             {...(project && { loading: "lazy" })}
             className={`${project ? "project_stack_image" : "stack_image"}`}
             src={`/assets/icons/stacks/${iconName}`}
             alt={`${stack} icon`}
             title={stack}
+            width={24}
+            height={24}
           />
         );
       })}

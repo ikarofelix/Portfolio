@@ -26,10 +26,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       i18n.changeLanguage(userLang);
       route.push(`/${userLang}`);
     }
-  }, []);
+  }, [pathName, route]);
 
   return (
     <html lang={getLang()} className="bg-dark_color text-white_color">
+      <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon" />
       <title>Ikaro Felix - Portfolio</title>
       <meta
         name="description"
