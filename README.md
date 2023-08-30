@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+<a href="https://react.dev/">
+  <img width=42 height=42 src="https://skillicons.dev/icons?i=react" alt="React icon" title="React" />
+</a>
 
-## Getting Started
+<a href="https://www.typescriptlang.org/">
+  <img width=42 height=42 src="https://skillicons.dev/icons?i=typescript" alt="TypeScript icon" title="TypeScript" />
+</a>
 
-First, run the development server:
+<a href="https://nextjs.org/">
+  <img width=42 height=42 src="https://skillicons.dev/icons?i=nextjs" alt="Next.js icon" title="Next.js" />
+</a>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<a href="https://tailwindcss.com/">
+  <img width=42 height=42 src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind icon" title="Tailwind" />
+</a>
+</div>
+<br/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![image](https://github.com/ikarofelix/Portfolio/assets/117465215/aa9928d9-f6f1-42d5-9bbe-c559592468e9)
+<br/>
+<br/>
+![image](https://github.com/ikarofelix/Portfolio/assets/117465215/c3d6368b-6eab-49b3-b01d-e7f9063ae874)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# [See it live!](https://ikarofelix.web.app)
