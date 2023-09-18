@@ -48,7 +48,7 @@
 }
 
 .section_title {
-  @apply 2xl:text-2xl md:text-xl text-lg font-semibold text-blue_color before:absolute before:content-[''] before:left-0 before:bg-blue_color before:h-0.5 before:w-full before:bottom-0 before:rounded;
+  @apply 2xl:text-2xl md:text-xl text-lg text-blue_color font-bold before:absolute before:content-[''] before:left-0 before:bg-blue_color before:h-0.5 before:w-full before:bottom-0 before:rounded;
 }
 
 .stack_image {

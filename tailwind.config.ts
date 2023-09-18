@@ -14,11 +14,14 @@ module.exports = {
       colors: {
         dark_color: "#030303",
         lighter_color: "#25252c",
-        blue_color: "#2743F5",
+        blue_color: "#29C5F6",
+        // 2743F5
+        // 48BBDB
         white_color: "#FFFFFF",
         semi_white_color: "#D9D9D9",
         footer_background_color: "#1B1A1A",
       },
+
       boxShadow: {
         navbar: "0px 4px 14px 2px rgba(14, 14, 14, 0.5)",
         project: "0px 0px 14px 0px #272727",

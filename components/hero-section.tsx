@@ -9,7 +9,7 @@ export const HeroSection: React.FC = () => {
   const pathName = usePathname();
   const isEnglish = () => (pathName === "/en" ? true : false);
   const heroDescription = t("hero.description", {
-    name: '<span class="text-blue_color">Ikaro Felix</span>',
+    name: '<strong class="text-white_color">Ikaro Felix</strong>',
   });
 
   return (
