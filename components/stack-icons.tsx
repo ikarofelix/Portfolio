@@ -11,7 +11,14 @@ export type Stacks =
   | "Firebase"
   | "ReactRouter"
   | "Redux"
-  | "StyledComponents";
+  | "StyledComponents"
+  | "SQL"
+  | "Python"
+  | "Csharp"
+  | "Docker"
+  | "Django"
+  | "DjangoRestFramework"
+  | "PostgreSQL";
 
 type StackIconsMap = {
   [key: string]: string;
@@ -29,6 +36,13 @@ const stackIconsMap: StackIconsMap = {
   reactrouter: "react-router-icon.svg",
   redux: "redux-icon.svg",
   styledcomponents: "styled-components-icon.svg",
+  python: "python-icon.svg",
+  sql: "sql-icon.svg",
+  csharp: "csharp-icon.svg",
+  docker: "docker-icon.svg",
+  django: "django-icon.svg",
+  djangorestframework: "djangorestframework-icon.svg",
+  postgresql: "postgresql-icon.svg",
 };
 
 export const StackIcons: React.FC<{ stacks: Stacks[]; project?: boolean }> = ({
@@ -43,7 +57,7 @@ export const StackIcons: React.FC<{ stacks: Stacks[]; project?: boolean }> = ({
           <Image
             key={stack}
             {...(project && { loading: "lazy" })}
-            className={`${project ? "project_stack_image" : "stack_image"}`}
+            className={`${project ? "project_stack_image" : "stack_image"} cursor-pointer`}
             src={`/assets/icons/stacks/${iconName}`}
             alt={`${stack} icon`}
             title={stack}

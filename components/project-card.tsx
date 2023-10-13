@@ -8,8 +8,8 @@ interface ProjectCardProps {
   title: string;
   description: string;
   stacks: Stacks[];
-  githubLink: string;
-  liveLink: string;
+  githubLink?: string;
+  liveLink?: string;
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -25,9 +25,9 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
 
   return (
     <div
-      className={`project_container lg:flex-row${imgClass === "panificadora" ? "-reverse" : ""}`}
+      className={`project_container lg:flex-row${imgClass === "backend" || imgClass === "panificadora" ? "-reverse" : ""}`}
     >
-      <div className={`project_img_container ${imgClass}`} aria-label={`${title} Project`}>
+      <div className={`cursor-pointer project_img_container ${imgClass}`} aria-label={`${title} Project`}>
         {imgSrc && (
           <img loading="lazy" src={imgSrc} alt={`${title} Project`} className="w-full h-full" />
         )}
@@ -37,8 +37,16 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
         <p className="text_small text-center">{description}</p>
         <StackIcons stacks={stacks} project />
         <div className="flex gap-10">
-          <SocialIcon icon="GitHub" link={githubLink} span={t("projects.code")} />
-          <SocialIcon icon="Live" link={liveLink} span={t("projects.live")} />
+          {githubLink && liveLink && (
+            <>
+              <SocialIcon icon="GitHub" link={githubLink} span={t("projects.code")} />
+              <SocialIcon icon="Live" link={liveLink} span={t("projects.live")} />
+            </>
+          )}
+          {liveLink && !githubLink && (
+            <SocialIcon icon="Live" link={liveLink} span={t("projects.live")} />
+          )
+          }
         </div>
       </div>
     </div>

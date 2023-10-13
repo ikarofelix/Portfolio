@@ -15,15 +15,50 @@ export const ProjectsSection: React.FC = () => {
           imgSrc="/assets/images/alzheimer-care.png"
           title="Alzheimer Care"
           description={t("projects.alzheimer_care")}
-          stacks={["TypeScript", "NodeJS", "React", "Firebase", "MySQL", "GraphQL"]}
+          stacks={[
+            "TypeScript", 
+            "NodeJS", 
+            "React", 
+            "Firebase", 
+            "MySQL", 
+            "GraphQL", 
+            "Redux", 
+            "StyledComponents"
+          ]}
           githubLink="https://github.com/ikarofelix/alzheimer-care"
           liveLink="https://alzheimer-care.netlify.app/"
+        />
+        <ProjectCard
+          imgClass="backend"
+          imgSrc="/assets/images/backend.jpg"
+          title="Alpha Squad"
+          description={t("projects.backend")}
+          stacks={[
+            "Python", 
+            "Docker", 
+            "Django", 
+            "DjangoRestFramework", 
+            "PostgreSQL"
+          ]}
+        />
+         <ProjectCard
+          imgClass="chrome_extension"
+          imgSrc="/assets/images/chrome_extension.png"
+          title={t("projects.chrome_extension.title")}
+          description={t("projects.chrome_extension")}
+          stacks={["JavaScript"]}
+          liveLink="https://www.linkedin.com/feed/update/urn:li:activity:7111454180472463360/"
         />
         <ProjectCard
           imgClass="panificadora"
           title="Panificadora Silva Rocha"
           description={t("projects.panificadora")}
-          stacks={["JavaScript", "React", "ReactRouter", "StyledComponents"]}
+          stacks={[
+            "JavaScript", 
+            "React", 
+            "ReactRouter", 
+            "StyledComponents"
+          ]}
           githubLink="https://github.com/ikarofelix/panificadora-silva-rocha"
           liveLink="https://panificadora-project.netlify.app/"
         />
@@ -33,13 +68,12 @@ export const ProjectsSection: React.FC = () => {
           title="Clothing E-Commerce"
           description={t("projects.clothing_e_commerce")}
           stacks={[
-            "JavaScript",
             "TypeScript",
             "React",
             "ReactRouter",
             "Firebase",
             "Redux",
-            "StyledComponents",
+            "StyledComponents"
           ]}
           githubLink="https://github.com/ikarofelix/clothing-e-commerce"
           liveLink="https://clothing-e-commerce-react-app.netlify.app/"
