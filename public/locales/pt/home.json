@@ -4,7 +4,7 @@
   "navbar.projects": "Projetos",
   "navbar.contact": "Contato",
 
-  "hero.blue.title": "Front-End",
+  "hero.blue.title": "Full Stack",
   "hero.title": "Desenvolvedor",
   "hero.description": "Olá, eu sou {{name}}. Um entusiasta na arte de resolver problemas e criar projetos a partir do zero, situado no estado de Minas Gerais, no Brasil.",
   "hero.subtitle": "Ferramentas",
@@ -20,6 +20,9 @@
   "projects.live": "Demo",
   "projects.alzheimer_care": "Um projeto pessoal compassivo com o objetivo de fornecer uma solução web e mobile para pessoas lidando com o Alzheimer. Essa iniciativa foca em armazenar informações de saúde, oferecendo uma fonte potencial de apoio tanto para cuidadores quanto para pacientes.",
   "projects.panificadora": "Desenvolvido para uma panificadora familiar, apresentando história, produtos, serviços e um formulário de contato. Seu layout adaptável, design encantador e facilidade de uso atendem a todos, incluindo conexões de internet mais lentas.",
+  "projects.backend": "Como membro da equipe, desempenha um papel fundamental na criação ainda em desenvolvimento de plataformas web, mobile e desktop como desenvolvedor Full Stack com foco em Back End. Essas plataformas são projetadas para gerenciar uma média de 300 membros da iniciativa.",
+  "projects.chrome_extension.title": "Extensão Chrome para treinamento de IA",
+  "projects.chrome_extension": "Contratado para criar uma extensão para o Chrome que registra as interações do usuário, assim como as Requisições HTTP geradas devido a cada interação, e salva tudo para treinar um web crawler baseado em IA (Inteligência Artificial).",
   "projects.clothing_e_commerce": "Este projeto faz parte do curso 'Complete React Developer in 2023', focando em construir lojas online. Contém recursos como navegação de produtos, contas de usuário, gerenciamento de carrinho e integração de pagamento com o Stripe. Perfeito para compreender desenvolvimento web, pagamentos, sistemas de login e mais.",
 
   "contact.title": "Contato",

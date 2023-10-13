@@ -4,7 +4,7 @@
   "navbar.projects": "Projects",
   "navbar.contact": "Contact",
 
-  "hero.blue.title": "Front-End",
+  "hero.blue.title": "Full Stack",
   "hero.title": "Developer",
   "hero.description": "Hi, I'm {{name}}. An enthusiast in the art of problem-solving and crafting creations from the ground up, situated in the state of Minas Gerais in Brazil.",
   "hero.subtitle": "Stacks",
@@ -20,6 +20,9 @@
   "projects.live": "Live",
   "projects.alzheimer_care": "A compassionate personal project aimed at providing a web and mobile solution for individuals dealing with Alzheimer's. This initiative focuses on storing health information, offering a potential source of support for caregivers and patients alike.",
   "projects.panificadora": "Tailored for a family bakery, this project merges English code with Brazilian Portuguese flair, showcasing history, products, services, and a contact form. Its adaptable layout, charming design, and user-friendliness cater to all, including slower internet connections.",
+  "projects.backend": "As a team member and currently focused on the Back End, plays a vital role in the ongoing development of web, mobile, and desktop platforms as a Full Stack developer. These platforms were designed to serve an average of 300 initiative members.",
+  "projects.chrome_extension.title": "Chrome Extension to train an AI based web crawler",
+  "projects.chrome_extension": "Hired to create a Chrome extension that records user interactions, as well as the HTTP requests generated as a result of each interaction, and saves everything for training an Artificial Inteligence-based web crawler.",
   "projects.clothing_e_commerce": "This project is a part of the 'Complete React Developer in 2023' course, focusing on building online stores. Discover features like product browsing, user accounts, cart management, and Stripe payment integration. Perfect for understanding web development, payments, login systems and more.",
 
   "contact.title": "Contact",
