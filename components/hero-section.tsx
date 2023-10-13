@@ -43,7 +43,7 @@ export const HeroSection: React.FC = () => {
                   isEnglish() ? "before:w-[95%]" : "before:w-[100%]"
                 } before:bottom-0 before:rounded`}
               >
-                Front-End{" "}
+                Full Stack{" "}
               </span>
             </span>
             {isEnglish() && "Developer"}
@@ -56,7 +56,7 @@ export const HeroSection: React.FC = () => {
         <div>
           <h2 className="md:text-2xl text-xl font-bold font-cabin">{t("hero.subtitle")}</h2>
           <StackIcons
-            stacks={["JavaScript", "TypeScript", "NodeJS", "React", "NextJS", "MySQL", "GraphQL"]}
+            stacks={["Python", "JavaScript", "TypeScript", "NodeJS", "React", "NextJS", "SQL", "Docker", "GraphQL"]}
           />
         </div>
         <DownloadCVButton />
