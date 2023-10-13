@@ -36,8 +36,8 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         name="description"
         content={`${
           getLang() === "en"
-            ? "Front-End Developer's Portfolio by Ikaro Felix"
-            : "Portfólio de Ikaro Felix - Desenvolvedor Front-End"
+            ? "Full Stack Developer's Portfolio by Ikaro Felix"
+            : "Portfólio de Ikaro Felix - Desenvolvedor Full Stack"
         }`}
       />
       <body>
