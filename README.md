@@ -17,9 +17,10 @@
 </div>
 <br/>
 
-![image](https://github.com/ikarofelix/Portfolio/assets/117465215/aa9928d9-f6f1-42d5-9bbe-c559592468e9)
+![image](https://github.com/ikarofelix/Portfolio/assets/117465215/7f409c69-d718-4cc9-a0a8-f29c0c01691f)
 <br/>
 <br/>
-![image](https://github.com/ikarofelix/Portfolio/assets/117465215/c3d6368b-6eab-49b3-b01d-e7f9063ae874)
+![image](https://github.com/ikarofelix/Portfolio/assets/117465215/a03b9a6a-e986-48e2-af01-41184c14041c)
+
 
 # [See it live!](https://ikarofelix.web.app)
