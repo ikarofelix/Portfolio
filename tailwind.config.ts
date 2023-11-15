@@ -13,10 +13,8 @@ module.exports = {
       },
       colors: {
         dark_color: "#030303",
-        lighter_color: "#25252c",
+        lighter_color: "#282A3A",
         blue_color: "#29C5F6",
-        // 2743F5
-        // 48BBDB
         white_color: "#FFFFFF",
         semi_white_color: "#D9D9D9",
         footer_background_color: "#1B1A1A",
