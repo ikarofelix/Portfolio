@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import Image from "next/image";
 
 export const Certificates: React.FC = () => {
   const { t } = useTranslation();
@@ -15,7 +14,7 @@ export const Certificates: React.FC = () => {
                     target="_blank" 
                     className="flex flex-col items-center w-[80%] sm:w-[45%] md:w-56"
                 >
-                    <Image 
+                    <img
                         width={64} 
                         height={64} 
                         loading="lazy"
@@ -31,7 +30,7 @@ export const Certificates: React.FC = () => {
                     className="flex flex-col items-center w-[80%] sm:w-[45%] md:w-56"
                 >
                     <div className="bg-white rounded-xl -p-2">
-                        <Image 
+                        <img 
                             width={64} 
                             height={64} 
                             loading="lazy"
@@ -46,7 +45,7 @@ export const Certificates: React.FC = () => {
                     target="_blank" 
                     className="flex flex-col items-center w-[80%] sm:w-[45%] md:w-56"
                 >
-                    <Image 
+                    <img 
                         width={64} 
                         height={64} 
                         loading="lazy"

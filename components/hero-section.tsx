@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import { usePathname } from "next/navigation";
 import { StackIcons } from "./stack-icons";
 import { SocialIcon } from "./social-icons";
-import Image from "next/image";
 
 export const HeroSection: React.FC = () => {
   const { t } = useTranslation();
@@ -20,7 +19,7 @@ export const HeroSection: React.FC = () => {
     >
       <div className="hero_image_vector max-w-xl">
         <picture>
-          <Image
+          <img
             width={800}
             height={800}
             src="/assets/images/hero-image-colored.png"

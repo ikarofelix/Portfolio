@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import Image from "next/image";
 
 export const Education: React.FC = () => {
   const { t } = useTranslation();
@@ -12,7 +11,7 @@ export const Education: React.FC = () => {
             </span>
             <div className="mt-5 flex gap-5 flex-wrap justify-center items-center">
                 <a href="https://www.una.br/" target="_blank">
-                    <Image 
+                    <img 
                         width={64} 
                         height={64} 
                         loading="lazy"

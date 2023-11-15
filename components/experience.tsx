@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import Image from "next/image";
 
 export const Experience: React.FC = () => {
   const { t } = useTranslation();
@@ -12,7 +11,7 @@ export const Experience: React.FC = () => {
             </span>
             <div className="mt-5 grid lg:grid-cols-2 gap-32">
                 <div className="flex flex-col items-center">
-                    <Image 
+                    <img 
                         width={64} 
                         height={64} 
                         loading="lazy"
@@ -33,7 +32,7 @@ export const Experience: React.FC = () => {
                     </div>
                 </div>
                 <div className="flex flex-col items-center">
-                    <Image 
+                    <img
                         width={64} 
                         height={64} 
                         loading="lazy"
