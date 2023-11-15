@@ -56,7 +56,7 @@ export const StackIcons: React.FC<{ stacks: Stacks[]; project?: boolean }> = ({
         return (
           <Image
             key={stack}
-            {...(project && { loading: "lazy" })}
+            {...(project ? { loading: "lazy" } : { loading: "eager" })}
             className={`${project ? "project_stack_image" : "stack_image"} cursor-pointer`}
             src={`/assets/icons/stacks/${iconName}`}
             alt={`${stack} icon`}

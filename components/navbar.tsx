@@ -65,12 +65,12 @@ export const NavBar: React.FC = () => {
 
   return (
     <header className="fixed z-10 font-cabin bg-dark_color shadow-navbar w-full h-fit">
-      <div className="app_container mx-auto flex flex-wrap p-3 sm:p-5 flex-row">
-        <a className="w-fit flex font-bold items-center sm:mb-0" href="">
-          <span className="sm:text-xl text-lg sm:block hidden">Ikaro Felix</span>
+      <div className="app_container mx-auto flex flex-wrap p-3 lg:p-5 flex-row">
+        <a className="w-fit flex font-bold items-center lg:mb-0" href="">
+          <span className="lg:text-xl text-lg lg:block hidden">Ikaro Felix</span>
         </a>
         <nav className="ml-auto text-base">
-          <div className="sm:flex items-center hidden font-sans">
+          <div className="lg:flex items-center hidden font-sans">
             <NavLinks />
             <div ref={languageSwitcherRef}>
               <LanguageSwitcher
@@ -89,14 +89,14 @@ export const NavBar: React.FC = () => {
           <div>
             <div
               ref={toggleDropdownRef}
-              className="sm:hidden absolute right-0 top-0 bg-dark_color shadow-navbar rounded p-4 w-full"
+              className="lg:hidden absolute right-0 top-0 bg-dark_color shadow-navbar rounded p-4 w-full"
             >
               <div>
-                <a className="w-fit flex font-bold items-center sm:mb-0" href="">
-                  <span className="sm:text-xl text-lg">Ikaro Felix</span>
+                <a className="w-fit flex font-bold items-center lg:mb-0" href="">
+                  <span className="lg:text-xl text-lg">Ikaro Felix</span>
                 </a>
                 <div
-                  className={`absolute right-6 top-3 sm:hidden menu_btn ${
+                  className={`absolute right-6 top-3 lg:hidden menu_btn ${
                     toggleDropdown ? "open" : ""
                   }`}
                   onClick={handleToggleDropdown}

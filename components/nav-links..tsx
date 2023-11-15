@@ -31,6 +31,9 @@ export const NavLinks: React.FC = () => {
       <NavLink label={t("navbar.home")} onClick={() => scrollToSection("home")} />
       <NavLink label={t("navbar.about")} onClick={() => scrollToSection("about")} />
       <NavLink label={t("navbar.projects")} onClick={() => scrollToSection("projects")} />
+      <NavLink label={t("navbar.experience")} onClick={() => scrollToSection("experience")} />
+      <NavLink label={t("navbar.education")} onClick={() => scrollToSection("education")} />
+      <NavLink label={t("navbar.certificates")} onClick={() => scrollToSection("certificates")} />
       <NavLink label={t("navbar.contact")} onClick={() => scrollToSection("contact")} />
     </>
   );

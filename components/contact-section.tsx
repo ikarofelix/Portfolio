@@ -5,7 +5,7 @@ export const ContactSection: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="contact" className="pt-10 pb-10 w-full bg-lighter_color">
+    <section id="contact" className="pt-10 pb-10 w-full">
       <div className="app_container m-auto">
         <span className="relative w-fit">
           <span className="section_title">{t("contact.title")}</span>
