@@ -2,6 +2,9 @@
   "navbar.home": "Início",
   "navbar.about": "Sobre",
   "navbar.projects": "Projetos",
+  "navbar.experience": "Experiência",
+  "navbar.education": "Educação",
+  "navbar.certificates": "Certificados",
   "navbar.contact": "Contato",
 
   "hero.blue.title": "Full Stack",
@@ -24,6 +27,34 @@
   "projects.chrome_extension.title": "Extensão Chrome para treinamento de IA",
   "projects.chrome_extension": "Contratado para criar uma extensão para o Chrome que registra as interações do usuário, assim como as Requisições HTTP geradas devido a cada interação, e salva tudo para treinar um web crawler baseado em IA (Inteligência Artificial).",
   "projects.clothing_e_commerce": "Este projeto faz parte do curso 'Complete React Developer in 2023', focando em construir lojas online. Contém recursos como navegação de produtos, contas de usuário, gerenciamento de carrinho e integração de pagamento com o Stripe. Perfeito para compreender desenvolvimento web, pagamentos, sistemas de login e mais.",
+
+  "education.title": "Educação",
+  "education.university": "Centro Universitário UNA",
+  "education.degree": "Bacharelado, Ciência da Computação",
+
+  "experience.title": "Experiência",
+  "experience.first.position.title": "Desenvolvedor Full Stack",
+  "experience.first.position.date": "10/2023 - Atualmente",
+  "experience.first.position.description": {
+    "topics": {
+      "topic1": "Com experiência em projetos envolvendo <strong>React, Node.js, Express, Tailwind, entre outros.</strong> Habilidades incluem <strong>manutenção, desenvolvimento de recursos, aprimoramento da estrutura de código, correção de bugs</strong> e muito mais.",
+      "topic2": "Fundamental no desenvolvimento de aplicativos que permitiram ao cliente gerenciar todo o site, incluindo marketing por e-mail, SMS e várias outras funções, tudo a partir de um painel centralizado.",
+      "topic3": "Proficiente na manutenção de projetos, desenvolvimento de recursos e melhoria contínua, resultando em um <strong>aumento de 20% no engajamento do usuário.</strong>",
+      "topic4": "Habilidade na correção de bugs e resolução de problemas, garantindo um desempenho robusto do projeto e uma <strong>redução de 32% nos problemas relatados.</strong>"
+    }
+  },
+  "experience.second.position.title": "Desenvolvedor Full Stack",
+  "experience.second.position.date": "09/2023 - Atualmente",
+  "experience.second.position.description": {
+    "topics": {
+      "topic1": "Envolvido em projetos contínuos com foco no Back End, utilizando <strong>Python, Docker, Django, Django Rest Framework, PostgreSQL, JavaScript, Node.js e outros.</strong> Esses projetos têm como objetivo atender uma média de <strong>300 usuários</strong> na plataforma da iniciativa.",
+      "topic2": "Desempenha um papel crucial em projetos contínuos de Back End, nos quais o trabalho foi realizado para <strong>aprimorar a autenticação do sistema, autorização</strong> e outras funcionalidades essenciais.",
+      "topic3": "Contribui ativamente para o desenvolvimento e manutenção de <strong>APIs RESTful</strong> e esquemas de <strong>banco de dados no Back End</strong>, garantindo acesso e manipulação de dados sem problemas para os usuários da plataforma.",
+      "topic4": "Colabora com uma equipe multifuncional para <strong>otimizar o desempenho do servidor, solucionar problemas técnicos</strong> e muito mais."
+    }
+  },
+
+  "certificates.title": "Certificados",
 
   "contact.title": "Contato",
   "contact.location": "Localização",

@@ -2,6 +2,9 @@
   "navbar.home": "Home",
   "navbar.about": "About",
   "navbar.projects": "Projects",
+  "navbar.experience": "Experience",
+  "navbar.education": "Education",
+  "navbar.certificates": "Certificates",
   "navbar.contact": "Contact",
 
   "hero.blue.title": "Full Stack",
@@ -24,6 +27,34 @@
   "projects.chrome_extension.title": "Chrome Extension to train an AI based web crawler",
   "projects.chrome_extension": "Hired to create a Chrome extension that records user interactions, as well as the HTTP requests generated as a result of each interaction, and saves everything for training an Artificial Inteligence-based web crawler.",
   "projects.clothing_e_commerce": "This project is a part of the 'Complete React Developer in 2023' course, focusing on building online stores. Discover features like product browsing, user accounts, cart management, and Stripe payment integration. Perfect for understanding web development, payments, login systems and more.",
+
+  "education.title": "Education",
+  "education.university": "Centro Universitario UNA",
+  "education.degree": "Bachelor's, Computer Science",
+
+  "experience.title": "Experience",
+  "experience.first.position.title": "Full Stack Developer",
+  "experience.first.position.date": "10/2023 - Present",
+  "experience.first.position.description": {
+    "topics": {
+      "topic1": "With experience in projects involving <strong>React, Node.js, Express, Tailwind, among others.</strong> Skills include <strong>maintenance, feature development, code structure improvement, bug fixing</strong> and much more.",
+      "topic2": "Instrumental in the development of applications that empowered the client to manage the entire website, including email marketing, SMS, and various other functions, all from a centralized dashboard.",
+      "topic3": "Proficient in project maintenance, feature development, and continuous improvement, <strong>resulting in a 20% increase in user engagement.</strong>",
+      "topic4": "Skilled in bug fixing and problem-solving, ensuring robust project performance and a <strong>32% reduction in reported issues.</strong>"
+    }
+  },
+  "experience.second.position.title": "Full Stack Developer",
+  "experience.second.position.date": "09/2023 - Present",
+  "experience.second.position.description": {
+    "topics": {
+      "topic1": "Engaged in ongoing projects with a focus on the Back End, utilizing <strong>Python, Docker, Django, Django Rest Framework, PostgreSQL, JavaScript, Node.js, and more.</strong> These projects aim to serve an average of <strong>300 users</strong> on the initiative's platform.",
+      "topic2": "Plays a pivotal role in continuous Back End projects where work was done to <strong>enhance system authentication, authorization,</strong> and other essential functionalities.",
+      "topic3": "Actively contributes to the development and maintenance of <strong>RESTful APIs</strong> and <strong>database schemas within the Back End</strong>, ensuring seamless data access and manipulation for the platform's users.",
+      "topic4": "Collaborates with a cross-functional team to <strong>optimize server performance, troubleshoot technical issues, and implement robust security measures, resulting in improved user experience and system reliability.</strong>"
+    }
+  },
+
+  "certificates.title": "Certificates",
 
   "contact.title": "Contact",
   "contact.location": "Location",
