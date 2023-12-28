@@ -23,4 +23,4 @@
 ![image](https://github.com/ikarofelix/Portfolio/assets/117465215/a03b9a6a-e986-48e2-af01-41184c14041c)
 
 
-# [See it live!](https://ikarofelix.web.app)
+# [See it live!](https://ikarofelix.tech)
